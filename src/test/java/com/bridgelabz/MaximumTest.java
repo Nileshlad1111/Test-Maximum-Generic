@@ -15,8 +15,17 @@ public class MaximumTest {
 
     //test case 1.1
     @Test
-    public void givenThreeIntegers_WhenMaximumFoundAtPosition1_ThenReturnMaximumSame() {
-        Integer maximumInteger = findMaximum.findMaximumInteger(1, 2, 3);
-        Assert.assertEquals((Integer) 3, maximumInteger);
+    public void givenThreeIntegers_WhenMaximumFoundAtPosition1_ThenReturnMaximum() {
+        Integer max = findMaximum.findMaximumInteger(3, 2, 1);
+        Assert.assertEquals((Integer) 3, max);
     }
+
+    //test case 1.2
+    @Test
+    public void givenThreeIntegers_WhenMaximumFoundAtPosition2_ThenReturnMaximum() {
+        Integer max = findMaximum.findMaximumInteger(2, 3, 1);
+        Assert.assertEquals((Integer) 3, max);
+    }
+
+
 }
