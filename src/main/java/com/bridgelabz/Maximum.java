@@ -2,20 +2,18 @@ package com.bridgelabz;
 
 public class Maximum {
 
-    public void findMaximumInteger()
-    {
-        int[] array = new int[]{10,20,30};
-        int currentMax = array[0];
-        for(int index=1;index<=array.length-1;index++){
-            if(currentMax < array[index]){
-                currentMax = array[index];
-            }
-        }
-        System.out.println("Maximum value is "+ currentMax);
+    //method of maximum integer value
+    public static Integer findMaximumInteger(Integer oneValue, Integer twoValue, Integer threeValue) {
+        Integer maximumValue = oneValue;
+        if (oneValue.compareTo(maximumValue) > 0)
+            maximumValue = twoValue;
+        if (threeValue.compareTo(maximumValue) > 0)
+            maximumValue = threeValue;
+        return maximumValue;
     }
     public static void main(String[] args) {
         Maximum maximum = new Maximum();
-        maximum.findMaximumInteger();
+       // maximum.findMaximumInteger();
     }
 }
 
