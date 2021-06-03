@@ -1,19 +1,29 @@
 package com.bridgelabz;
 
 public class Maximum {
+    public static void main(String[] args) {
+        System.out.println("Wel come generic using test maximum problem");
+    }
 
     //method of maximum integer value
-    public static Integer findMaximumInteger(Integer oneValue, Integer twoValue, Integer threeValue) {
-        Integer maximumValue = oneValue;
-        if (oneValue.compareTo(maximumValue) > 0)
-            maximumValue = twoValue;
-        if (threeValue.compareTo(maximumValue) > 0)
-            maximumValue = threeValue;
+    public static Integer findMaximumInteger(Integer firstValue, Integer secondValue, Integer thirdValue) {
+        Integer maximumValue = firstValue;
+        if (secondValue.compareTo(maximumValue) > 0)
+            maximumValue = secondValue;
+        if (thirdValue.compareTo(maximumValue) > 0)
+            maximumValue = thirdValue;
         return maximumValue;
     }
-    public static void main(String[] args) {
-        Maximum maximum = new Maximum();
 
+    //method of maximum integer value
+    public static Float findMaximumFloat(Float firstValue, Float secondValue, Float thirdValue) {
+        Float maximumValue = firstValue;
+        if (secondValue.compareTo(maximumValue) > 0)
+            maximumValue = secondValue;
+        if (thirdValue.compareTo(maximumValue) > 0)
+            maximumValue = thirdValue;
+        return maximumValue;
     }
+
 }
 
