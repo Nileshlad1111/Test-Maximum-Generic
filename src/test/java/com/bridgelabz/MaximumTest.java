@@ -27,5 +27,10 @@ public class MaximumTest {
         Assert.assertEquals((Integer) 3, max);
     }
 
-
+    //test case 1.3
+    @Test
+    public void givenThreeIntegers_WhenMaximumFoundAtPosition3_ThenReturnMaximum() {
+        Integer max = findMaximum.findMaximumInteger(1, 2, 3);
+        Assert.assertEquals((Integer) 3, max);
+    }
 }
