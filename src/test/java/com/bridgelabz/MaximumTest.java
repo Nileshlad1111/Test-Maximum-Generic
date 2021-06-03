@@ -75,7 +75,7 @@ public class MaximumTest {
     //test case 3.1
     @Test
     public void givenThreeStrings_WhenMaximumFoundAtPosition1_ThenReturnMaximum() {
-        String maximum = findMaximum.findMaximum("apple" , "peach" , "banana");
+        String maximum = findMaximum.findMaximum("apple" , "peach", "banana");
         Assert.assertEquals("peach" , maximum);
     }
 

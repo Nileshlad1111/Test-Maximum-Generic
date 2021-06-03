@@ -1,8 +1,23 @@
 package com.bridgelabz;
 
-public class Maximum {
-    public static void main(String[] args) {
-        System.out.println("Wel come generic using test maximum problem");
+public class Maximum <E extends Comparable> {
+    E firstValue;
+    E secondValue;
+    E thirdValue;
+
+    //contractor
+    public Maximum() {
+    }
+    
+    //contractor
+    public Maximum(E firstValue , E secondValue , E thirdValue) {
+        this.firstValue = firstValue;
+        this.secondValue = secondValue;
+        this.thirdValue = thirdValue;
+    }
+
+    public E findMaximum() {
+        return findMaximum(firstValue, secondValue, thirdValue);
     }
 
     public static < E extends Comparable> E findMaximum(E firstValue , E secondValue , E thirdValue) {
@@ -12,6 +27,10 @@ public class Maximum {
         if (thirdValue.compareTo(maximumValue) > 0)
             maximumValue = thirdValue;
         return maximumValue;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Wel come generic using test maximum problem");
     }
 }
 
