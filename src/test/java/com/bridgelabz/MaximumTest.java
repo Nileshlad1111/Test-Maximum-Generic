@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MaximumTest {
+    //object
     Maximum findMaximum = new Maximum();
 
     //test case not null
@@ -61,5 +62,34 @@ public class MaximumTest {
     public void givenThreeFloats_WhenMaximumFoundAtPosition3_ThenReturnMaximum() {
         Float max = findMaximum.findMaximumFloat(1.3f, 2.4f, 3.1f);
         Assert.assertEquals((Float) 3.1f, max);
+    }
+
+    //Test Cases For String Values
+    //test case not null
+    @Test
+    public void givenStringValue_NotNull_Value() {
+        findMaximum.findMaximumString("apple","peach","banana");
+        Assert.assertNotNull(findMaximum);
+    }
+
+    //test case 3.1
+    @Test
+    public void givenThreeStrings_WhenMaximumFoundAtPosition1_ThenReturnMaximum() {
+        String maximum = findMaximum.findMaximumString("apple", "peach", "banana");
+        Assert.assertEquals("peach", maximum);
+    }
+
+    //test case 3.2
+    @Test
+    public void givenThreeStrings_WhenMaximumFoundAtPosition2_ThenReturnMaximum() {
+        String maximum = findMaximum.findMaximumString("peach", "apple", "banana");
+        Assert.assertEquals("peach", maximum);
+    }
+
+    //test case 3.3
+    @Test
+    public void givenThreeStrings_WhenMaximumFoundAtPosition3_ThenReturnMaximum() {
+        String maximum = findMaximum.findMaximumString("peach", "banana", "apple");
+        Assert.assertEquals("peach", maximum);
     }
 }
