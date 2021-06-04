@@ -22,7 +22,7 @@ public class Maximum <E extends Comparable> {
         return maximum;
     }
 
-    public <E> void printMax(E maximum){
+    public static <E> void printMax(E maximum){
         System.out.println(maximum);
     }
 

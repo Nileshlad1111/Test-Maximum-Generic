@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MaximumTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-03T14:22:06" hostname="LAPTOP-DILI6N8Q" time="0.01">
+<testsuite name="com.bridgelabz.MaximumTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-04T12:41:43" hostname="LAPTOP-DILI6N8Q" time="0.009">
   <properties/>
   <testcase name="givenThreeStrings_WhenMaximumFoundAtPosition2_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.001"/>
   <testcase name="givenThreeIntegers_WhenMaximumFoundAtPosition2_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.0"/>
-  <testcase name="givenThreeFloats_WhenMaximumFoundAtPosition3_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.001"/>
-  <testcase name="givenThreeStrings_WhenMaximumFoundAtPosition1_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.0"/>
-  <testcase name="givenIntegerValue_NotNull_Value" classname="com.bridgelabz.MaximumTest" time="0.0"/>
+  <testcase name="givenThreeFloats_WhenMaximumFoundAtPosition3_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.0"/>
+  <testcase name="givenThreeStrings_WhenMaximumFoundAtPosition1_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.001"/>
+  <testcase name="givenIntegerValue_NotNull_Value" classname="com.bridgelabz.MaximumTest" time="0.001"/>
   <testcase name="givenThreeIntegers_WhenMaximumFoundAtPosition1_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.0"/>
   <testcase name="givenStringValue_NotNull_Value" classname="com.bridgelabz.MaximumTest" time="0.0"/>
   <testcase name="givenThreeFloats_WhenMaximumFoundAtPosition2_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.0"/>
   <testcase name="givenFloatValue_NotNull_Value" classname="com.bridgelabz.MaximumTest" time="0.0"/>
-  <testcase name="givenThreeFloats_WhenMaximumFoundAtPosition1_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.001"/>
-  <testcase name="givenThreeStrings_WhenMaximumFoundAtPosition3_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.001"/>
+  <testcase name="givenThreeFloats_WhenMaximumFoundAtPosition1_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.0"/>
+  <testcase name="givenThreeStrings_WhenMaximumFoundAtPosition3_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.0"/>
   <testcase name="givenThreeIntegers_WhenMaximumFoundAtPosition3_ThenReturnMaximum" classname="com.bridgelabz.MaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
