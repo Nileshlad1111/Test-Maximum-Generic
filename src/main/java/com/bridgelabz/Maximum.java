@@ -1,6 +1,6 @@
 package com.bridgelabz;
 
-public class Maximum <E extends Comparable> {
+public class Maximum < E extends Comparable> {
     E firstValue;
     E secondValue;
     E thirdValue;
@@ -22,8 +22,8 @@ public class Maximum <E extends Comparable> {
         return maximum;
     }
 
-    public static <E> void printMax(E maximum){
-        System.out.println(maximum);
+    public static <E> void printMax( E findMaximum) {
+        System.out.println(findMaximum);
     }
 
     public static < E extends Comparable> E findMaximum (E firstValue , E secondValue , E thirdValue) {
